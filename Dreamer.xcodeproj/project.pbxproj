@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85324A17D084FDB3D0F3B285 /* Pods_DreamerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923BE8BDF827C41221ACB6C1 /* Pods_DreamerTests.framework */; };
 		8CD0D5A022025D260029C5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D59F22025D260029C5CD /* AppDelegate.swift */; };
 		8CD0D5A222025D260029C5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D5A122025D260029C5CD /* ViewController.swift */; };
 		8CD0D5A522025D260029C5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD0D5A322025D260029C5CD /* Main.storyboard */; };
@@ -15,8 +16,8 @@
 		8CD0D5AD22025D290029C5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD0D5AB22025D290029C5CD /* LaunchScreen.storyboard */; };
 		8CD0D5B822025D290029C5CD /* DreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D5B722025D290029C5CD /* DreamerTests.swift */; };
 		8CD0D5C322025D290029C5CD /* DreamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D5C222025D290029C5CD /* DreamerUITests.swift */; };
-		8CD0D5D1220277640029C5CD /* ChartRealTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D5D0220277640029C5CD /* ChartRealTime.swift */; };
-		8CD0D5D4220285370029C5CD /* ChartEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0D5D3220285370029C5CD /* ChartEntries.swift */; };
+		ACEEFC29956E5D799FDA61DB /* Pods_Dreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190C1B02459C1708879FA8BB /* Pods_Dreamer.framework */; };
+		FD4E0E41D6C0EEC6F2542292 /* Pods_DreamerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4688E752916C9C9CB4043E6 /* Pods_DreamerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12F4EC0E1E0F8F279F639E7B /* Pods-DreamerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamerTests/Pods-DreamerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		190C1B02459C1708879FA8BB /* Pods_Dreamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dreamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0D59C22025D260029C5CD /* Dreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0D59F22025D260029C5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD0D5A122025D260029C5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +54,13 @@
 		8CD0D5BE22025D290029C5CD /* DreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0D5C222025D290029C5CD /* DreamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamerUITests.swift; sourceTree = "<group>"; };
 		8CD0D5C422025D290029C5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CD0D5D0220277640029C5CD /* ChartRealTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRealTime.swift; sourceTree = "<group>"; };
-		8CD0D5D3220285370029C5CD /* ChartEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEntries.swift; sourceTree = "<group>"; };
+		923BE8BDF827C41221ACB6C1 /* Pods_DreamerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BA4B68F20A3049C8EB6A37 /* Pods-Dreamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dreamer/Pods-Dreamer.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F53D457BF55231C18D43F8 /* Pods-DreamerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamerUITests/Pods-DreamerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D15173805936CAB6188CCD1B /* Pods-DreamerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamerTests/Pods-DreamerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5780A4B61D15BFAF740DA1F /* Pods-DreamerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamerUITests/Pods-DreamerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E391F2248CBE17C38F45AFE4 /* Pods-Dreamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dreamer/Pods-Dreamer.release.xcconfig"; sourceTree = "<group>"; };
+		E4688E752916C9C9CB4043E6 /* Pods_DreamerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEEFC29956E5D799FDA61DB /* Pods_Dreamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85324A17D084FDB3D0F3B285 /* Pods_DreamerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4E0E41D6C0EEC6F2542292 /* Pods_DreamerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1037C737B72DEAD75DE42D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7BA4B68F20A3049C8EB6A37 /* Pods-Dreamer.debug.xcconfig */,
+				E391F2248CBE17C38F45AFE4 /* Pods-Dreamer.release.xcconfig */,
+				12F4EC0E1E0F8F279F639E7B /* Pods-DreamerTests.debug.xcconfig */,
+				D15173805936CAB6188CCD1B /* Pods-DreamerTests.release.xcconfig */,
+				B8F53D457BF55231C18D43F8 /* Pods-DreamerUITests.debug.xcconfig */,
+				D5780A4B61D15BFAF740DA1F /* Pods-DreamerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		338897FAD2216FBB53DAF0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				190C1B02459C1708879FA8BB /* Pods_Dreamer.framework */,
+				923BE8BDF827C41221ACB6C1 /* Pods_DreamerTests.framework */,
+				E4688E752916C9C9CB4043E6 /* Pods_DreamerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CD0D59322025D260029C5CD = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +121,8 @@
 				8CD0D5B622025D290029C5CD /* DreamerTests */,
 				8CD0D5C122025D290029C5CD /* DreamerUITests */,
 				8CD0D59D22025D260029C5CD /* Products */,
+				1037C737B72DEAD75DE42D9F /* Pods */,
+				338897FAD2216FBB53DAF0AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +139,6 @@
 		8CD0D59E22025D260029C5CD /* Dreamer */ = {
 			isa = PBXGroup;
 			children = (
-				8CD0D5D22202851C0029C5CD /* Chart */,
 				8CD0D59F22025D260029C5CD /* AppDelegate.swift */,
 				8CD0D5A122025D260029C5CD /* ViewController.swift */,
 				8CD0D5A322025D260029C5CD /* Main.storyboard */,
@@ -133,15 +168,6 @@
 			path = DreamerUITests;
 			sourceTree = "<group>";
 		};
-		8CD0D5D22202851C0029C5CD /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				8CD0D5D0220277640029C5CD /* ChartRealTime.swift */,
-				8CD0D5D3220285370029C5CD /* ChartEntries.swift */,
-			);
-			path = Chart;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD0D5C722025D290029C5CD /* Build configuration list for PBXNativeTarget "Dreamer" */;
 			buildPhases = (
+				6A4A3F9E509A68A7B85E2195 /* [CP] Check Pods Manifest.lock */,
 				8CD0D59822025D260029C5CD /* Sources */,
 				8CD0D59922025D260029C5CD /* Frameworks */,
 				8CD0D59A22025D260029C5CD /* Resources */,
+				C9833BBF3E47042C4BFB97DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD0D5CA22025D290029C5CD /* Build configuration list for PBXNativeTarget "DreamerTests" */;
 			buildPhases = (
+				93FC8654E777E8286B35AE8D /* [CP] Check Pods Manifest.lock */,
 				8CD0D5AF22025D290029C5CD /* Sources */,
 				8CD0D5B022025D290029C5CD /* Frameworks */,
 				8CD0D5B122025D290029C5CD /* Resources */,
@@ -184,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD0D5CD22025D290029C5CD /* Build configuration list for PBXNativeTarget "DreamerUITests" */;
 			buildPhases = (
+				599FF6046B17A84CB3E18D06 /* [CP] Check Pods Manifest.lock */,
 				8CD0D5BA22025D290029C5CD /* Sources */,
 				8CD0D5BB22025D290029C5CD /* Frameworks */,
 				8CD0D5BC22025D290029C5CD /* Resources */,
@@ -268,6 +298,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		599FF6046B17A84CB3E18D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4A3F9E509A68A7B85E2195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dreamer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FC8654E777E8286B35AE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9833BBF3E47042C4BFB97DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dreamer/Pods-Dreamer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dreamer/Pods-Dreamer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CD0D59822025D260029C5CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,8 +381,6 @@
 				8CD0D5A222025D260029C5CD /* ViewController.swift in Sources */,
 				8CD0D5A822025D260029C5CD /* Dreamer.xcdatamodeld in Sources */,
 				8CD0D5A022025D260029C5CD /* AppDelegate.swift in Sources */,
-				8CD0D5D1220277640029C5CD /* ChartRealTime.swift in Sources */,
-				8CD0D5D4220285370029C5CD /* ChartEntries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +553,7 @@
 		};
 		8CD0D5C822025D290029C5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BA4B68F20A3049C8EB6A37 /* Pods-Dreamer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +573,7 @@
 		};
 		8CD0D5C922025D290029C5CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E391F2248CBE17C38F45AFE4 /* Pods-Dreamer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +593,7 @@
 		};
 		8CD0D5CB22025D290029C5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F4EC0E1E0F8F279F639E7B /* Pods-DreamerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +615,7 @@
 		};
 		8CD0D5CC22025D290029C5CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15173805936CAB6188CCD1B /* Pods-DreamerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +637,7 @@
 		};
 		8CD0D5CE22025D290029C5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F53D457BF55231C18D43F8 /* Pods-DreamerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +658,7 @@
 		};
 		8CD0D5CF22025D290029C5CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5780A4B61D15BFAF740DA1F /* Pods-DreamerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
