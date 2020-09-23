@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		12F4EC0E1E0F8F279F639E7B /* Pods-DreamerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamerTests/Pods-DreamerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		190C1B02459C1708879FA8BB /* Pods_Dreamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dreamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB53C2E24BE0C22000E7113 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8CD0D59C22025D260029C5CD /* Dreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0D59F22025D260029C5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD0D5A122025D260029C5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 		338897FAD2216FBB53DAF0AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CB53C2E24BE0C22000E7113 /* CoreBluetooth.framework */,
 				190C1B02459C1708879FA8BB /* Pods_Dreamer.framework */,
 				923BE8BDF827C41221ACB6C1 /* Pods_DreamerTests.framework */,
 				E4688E752916C9C9CB4043E6 /* Pods_DreamerUITests.framework */,
@@ -240,13 +242,16 @@
 				TargetAttributes = {
 					8CD0D59B22025D260029C5CD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 					};
 					8CD0D5B222025D290029C5CD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 						TestTargetID = 8CD0D59B22025D260029C5CD;
 					};
 					8CD0D5BD22025D290029C5CD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 						TestTargetID = 8CD0D59B22025D260029C5CD;
 					};
 				};
@@ -564,9 +569,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dia.AlarmMiBand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AlarmMiBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -584,9 +589,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dia.AlarmMiBand;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.AlarmMiBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -607,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.DreamerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dreamer.app/Dreamer";
 			};
@@ -629,7 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.DreamerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dreamer.app/Dreamer";
 			};
@@ -650,7 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.DreamerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Dreamer;
 			};
@@ -671,7 +676,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.DreamerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Dreamer;
 			};

@@ -6,7 +6,7 @@ import Charts
 
 
 
-let frame = CGRect(x: 0, y: 61, width: 320, height: 241)
+let frame = CGRect(x: 0, y: 61, width: 320, height: 241)  //graph
 let heartRateServiceCBUUID = CBUUID(string: "180D") // the UUID for the Heart Rate service(probabile in hexodecimal phorme)
 let heartRateMeasurementCharacteristicCBUUID = CBUUID(string: "2A37") //the UUID for the Heart Rate service Characteristic
 let bodySensorLocationCharacteristicCBUUID = CBUUID(string: "2A39")
@@ -90,14 +90,18 @@ extension TestViewController: CBCentralManagerDelegate {
         case .poweredOn:
             print("central.state is .poweredOn")
             centralManager.scanForPeripherals(withServices: nil ) //Scaning( can only accept this command while in the powered on state)
+        @unknown default:
+            print("central.state is .poweredOFF")
         }
     }
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         
         conectedPeriferals.updateValue(peripheral, forKey: peripheral.name ?? "Nothing")
+        
+        print(peripheral.name!)
      
-        if peripheral.name == "MI Band 2" {
+        if peripheral.name == "BT05" {
             centralManager.stopScan()
             for conectPeriferal in conectedPeriferals.values{
                 centralManager.connect(conectPeriferal)
@@ -173,7 +177,7 @@ extension TestViewController: CBPeripheralDelegate {
     
     
     func alarmingMiBand() {
-        conectedPeriferals["MI Band 2"]?.writeValue(Data(bytes:[0x2]), for: alarmCharacteristic!, type: .withoutResponse)
+        conectedPeriferals["MI Band 2"]?.writeValue(Data([0x2]), for: alarmCharacteristic!, type: .withoutResponse)
     }  
 }
 
